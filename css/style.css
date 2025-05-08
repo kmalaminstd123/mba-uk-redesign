@@ -2287,6 +2287,266 @@ body {
 /* =================== scholarship form css end ======================= */
 
 
+
+/* =================== eiu paris page css start ======================= */
+
+#eiu-aff-content{
+    background: linear-gradient(135deg, #265367 0%, #1a3845 100%);
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#eiu-aff-content::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, #8f653b 0%, transparent 70%);
+    opacity: 0.1;
+    top: -200px;
+    right: -200px;
+    border-radius: 50%;
+}
+
+#eiu-aff-content .mba-intro {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+}
+
+#eiu-aff-content .mba-intro p {
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+/* QS Rating Section start */
+
+#qs-rating {
+    padding: 80px 0;
+    background: #fff;
+    position: relative;
+}
+
+#qs-rating:nth-child(even) {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.qs-content {
+    padding: 30px;
+}
+
+.qs-content h2 {
+    color: #265367;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+.qs-content h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: #8f653b;
+}
+
+.qs-content h6 {
+    color: #1a3845;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.qs-content p {
+    color: #495057;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.qs-content .p-one {
+    color: #8f653b;
+    font-weight: 500;
+}
+
+.qs-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.qs-content ul li {
+    margin-bottom: 1rem;
+    /* padding-left: 2rem; */
+    position: relative;
+    color: #495057;
+}
+
+.qs-content ul li i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    color: #8f653b;
+}
+
+.qs-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+    padding: 20px;
+}
+
+.qs-logo img {
+    max-width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.qs-logo img:hover {
+    transform: scale(1.05);
+}
+
+/* aff accrediation start */
+
+.aff-accreditation-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #265367 0%, #1a3845 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.aff-accreditation-section::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, #8f653b 0%, transparent 70%);
+    opacity: 0.1;
+    top: -200px;
+    right: -200px;
+    border-radius: 50%;
+}
+
+.aff-accreditation-section .content-wrapper {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 40px;
+}
+
+.aff-accreditation-section .accreditation-image {
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    width: 200px;
+    margin: 0 auto 50px auto;
+}
+
+.aff-accreditation-section .accreditation-image:hover {
+    transform: translateY(-10px);
+}
+
+.aff-accreditation-section .accreditation-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.aff-accreditation-section .accreditation-content h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+.aff-accreditation-section .accreditation-content h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: #8f653b;
+    border-radius: 2px;
+}
+
+.aff-accreditation-section .accreditation-content p {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 991px) {
+    .aff-accreditation-section {
+        padding: 60px 0;
+    }
+    
+    .aff-accreditation-section .accreditation-content h2 {
+        font-size: 2rem;
+    }
+    
+    .aff-accreditation-section .content-wrapper {
+        padding: 25px;
+    }
+}
+
+/* aff accrediation end */
+
+/* Animation Classes */
+/* .wow.animate__fadeInLeft {
+    animation-duration: 1s;
+}
+
+.wow.animate__fadeInRight {
+    animation-duration: 1s;
+} */
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .qs-content h2 {
+        font-size: 2rem;
+    }
+    
+    .qs-logo {
+        flex-wrap: wrap;
+    }
+    
+    .qs-logo img {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .qs-content {
+        padding: 20px 0;
+    }
+    
+    .mba-intro {
+        padding: 25px;
+    }
+}
+
+/* QS Rating Section end */
+
+/* =================== eiu paris page css end ======================= */
+
+
 /* footer top start */
 
 .footer-top {
