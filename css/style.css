@@ -235,7 +235,7 @@ body {
 /* banner slider part start */
 
 #banner-slider .camera_caption>div {
-    background-color: rgba(0, 0, 0, 0.466);
+    /* background-color: rgba(0, 0, 0, 0.466); */
     height: 100%;
     width: 100%;
     display: flex;
