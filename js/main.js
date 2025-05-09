@@ -10,12 +10,12 @@ window.addEventListener('load', ()=> {
     if(loader){
         
         // for testing or developement
-        setTimeout(()=> {
-            loader.style.display = 'none'
-        }, 2000)
+        // setTimeout(()=> {
+           // loader.style.display = 'none'
+        // }, 2000)
 
         // production code
-        // loader.style.display = 'none'
+        loader.style.display = 'none'
     }
 })
 
